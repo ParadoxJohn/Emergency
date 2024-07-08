@@ -1,0 +1,124 @@
+body {
+	background-image: url(back1.png);
+	font-family: Georgia, serif ;
+	color: black;
+	padding-bottom:110px;
+	padding-left:150px;
+	padding-right:150px;
+}
+
+div {
+	padding: 18px;
+}
+
+.head {
+	background: linear-gradient(#65e1fc, #d1e38f);
+}
+.body {
+	background-color: #ccffff;
+}
+
+p {
+	font-size: 20;
+	font-family: ;
+}
+
+ul li {
+	padding-top: 5;
+	font-size: 20;
+}
+nav.notmain {
+	font-size: 20;
+	padding: 20;
+	margin-top: 14px;
+	background-color: #99ebff;
+
+}
+
+nav.notmain ul li {
+	display: list-item ;
+	color: black;
+}
+
+
+nav.selected {
+
+
+
+}
+nav.selected ul {
+ margin: 0px;
+
+ padding: 5px 0px 5px 0px;
+
+}
+nav.selected ul li {
+ font-size: 20px;
+ display: inline;
+ padding: 5px 10px 5px 10px;
+ font-size: 25;
+}
+nav.selected ul li.selected_li {
+	background-color: #fcfa65;
+	border: 1px solid black;
+}
+
+a.mainlink {
+	color: black;
+	text-decoration: none;
+
+}
+a.mainlink:hover {
+	color: #ffffff;
+}
+
+a.cathegory {
+	text-decoration: None;
+	color: #34eb3a;
+	text-align: center;
+	transition-property:color;
+  transition-duration:2s;
+
+}
+
+.container {
+
+}
+
+iframe {
+	width: 1150px;
+	height: 500;
+}
+
+.animation_h,.animation_r,.animation_ra,.animation_y,.animation_f,.animation_p,.animation_b {
+	background-color: lightyellow;
+  border: 3px outset lightblue;
+	margin: 0 auto;
+  display: block;
+}
+
+.vir {
+  display: flex;
+  align-items: stretch;
+	justify-content: center;
+
+}
+
+.kn {
+  margin: 0 auto;
+  display: block;
+	text-align: center;
+}
+
+div.gradient {
+	background: linear-gradient(#fc03c2, #fc0303);
+}
+
+div.body {
+	margin-top: 100px;
+}
+
+div.pills_cathegory {
+	margin: 40px;
+	background-color: #AAD2FF  ;
+}
